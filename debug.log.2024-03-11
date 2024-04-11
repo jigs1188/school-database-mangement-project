@@ -1,0 +1,222 @@
+INFO 2024-04-04 18:43:38,593 Watching for file changes with StatReloader
+INFO 2024-04-04 18:46:01,872 Watching for file changes with StatReloader
+INFO 2024-04-04 18:46:07,746 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 18:46:07,837 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-04-04 18:46:08,129 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-04-04 18:46:08,136 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-04-04 18:46:08,151 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-04 18:46:08,164 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-04-04 18:46:08,170 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-04-04 18:46:08,175 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-04-04 18:46:08,181 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-04-04 18:46:08,199 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-04-04 18:46:08,207 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-04-04 18:46:08,218 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-04-04 18:46:08,218 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-04-04 18:46:08,234 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-04-04 18:46:08,492 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+INFO 2024-04-04 18:46:08,726 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-04-04 18:46:21,148 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 18:46:21,210 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 18:46:21,552 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-04-04 18:46:21,581 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-04-04 18:46:21,737 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-04 18:46:29,092 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 18:46:33,034 "GET /staff/list/ HTTP/1.1" 200 9695
+INFO 2024-04-04 18:46:35,375 "GET /finance/list/ HTTP/1.1" 200 10355
+INFO 2024-04-04 18:46:38,862 "GET /result/create/ HTTP/1.1" 200 10923
+INFO 2024-04-04 18:46:43,990 "GET /result/edit-results/ HTTP/1.1" 200 12069
+INFO 2024-04-04 18:46:46,331 "GET /result/view/all HTTP/1.1" 200 10295
+INFO 2024-04-04 18:46:50,704 "GET /session/list/ HTTP/1.1" 200 12292
+INFO 2024-04-04 18:56:53,981 /home/jigs/Documents/Django-School-Management-System/school_app/wsgi.py changed, reloading.
+INFO 2024-04-04 18:56:55,181 Watching for file changes with StatReloader
+INFO 2024-04-04 18:56:58,871 /home/jigs/Documents/Django-School-Management-System/school_app/wsgi.py changed, reloading.
+INFO 2024-04-04 18:57:00,101 Watching for file changes with StatReloader
+WARNING 2024-04-04 19:08:08,208 Not Found: /admin/
+WARNING 2024-04-04 19:08:08,210 "GET /admin/ HTTP/1.1" 404 6187
+WARNING 2024-04-04 19:08:22,381 Not Found: /admin
+WARNING 2024-04-04 19:08:22,382 "GET /admin HTTP/1.1" 404 6184
+WARNING 2024-04-04 19:09:01,472 Not Found: /accounts/
+WARNING 2024-04-04 19:09:01,473 "GET /accounts/ HTTP/1.1" 404 7662
+INFO 2024-04-04 19:10:50,292 /home/jigs/Documents/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-04-04 19:10:51,581 Watching for file changes with StatReloader
+INFO 2024-04-04 19:10:55,500 /home/jigs/Documents/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-04-04 19:10:56,917 Watching for file changes with StatReloader
+INFO 2024-04-04 19:11:00,526 /home/jigs/Documents/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-04-04 19:11:01,744 Watching for file changes with StatReloader
+INFO 2024-04-04 19:11:03,581 /home/jigs/Documents/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-04-04 19:11:04,638 Watching for file changes with StatReloader
+INFO 2024-04-04 19:11:06,518 /home/jigs/Documents/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-04-04 19:11:07,742 Watching for file changes with StatReloader
+INFO 2024-04-04 19:12:41,859 /home/jigs/Documents/Django-School-Management-System/school_app/settings.py changed, reloading.
+INFO 2024-04-04 19:12:42,970 Watching for file changes with StatReloader
+INFO 2024-04-04 19:12:45,415 /home/jigs/Documents/Django-School-Management-System/school_app/settings.py changed, reloading.
+INFO 2024-04-04 19:12:46,733 Watching for file changes with StatReloader
+ERROR 2024-04-04 19:12:59,176 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: django_admin_log
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: django_admin_log
+ERROR 2024-04-04 19:12:59,191 "GET /admin/ HTTP/1.1" 500 298039
+INFO 2024-04-04 19:18:55,856 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:19:00,913 "GET /current-session/ HTTP/1.1" 200 10606
+INFO 2024-04-04 19:19:15,153 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:21:03,790 "GET /site-config HTTP/1.1" 200 10873
+INFO 2024-04-04 19:22:39,894 "GET /staff/list/ HTTP/1.1" 200 9695
+INFO 2024-04-04 19:23:24,542 Watching for file changes with StatReloader
+INFO 2024-04-04 19:23:33,807 "GET /admin/ HTTP/1.1" 200 3326
+INFO 2024-04-04 19:23:33,892 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2024-04-04 19:23:33,895 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2024-04-04 19:23:33,896 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2024-04-04 19:23:33,897 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2024-04-04 19:23:33,897 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2024-04-04 19:23:33,903 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-04-04 19:23:33,961 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-04 19:23:33,961 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-04 19:23:34,003 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-04-04 19:23:34,004 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-04-04 19:23:34,004 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-04-04 19:23:44,360 "GET /admin/auth/user/ HTTP/1.1" 200 7845
+INFO 2024-04-04 19:23:44,436 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2024-04-04 19:23:44,455 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-04 19:23:44,458 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2024-04-04 19:23:44,460 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-04-04 19:23:44,460 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2024-04-04 19:23:44,464 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2024-04-04 19:23:44,465 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-04-04 19:23:44,469 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-04-04 19:23:44,471 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-04 19:23:44,473 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-04-04 19:23:44,517 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-04 19:23:44,519 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-04 19:23:44,548 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-04 19:23:44,549 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2024-04-04 19:23:44,639 Not Found: /favicon.ico
+INFO 2024-04-04 19:33:29,428 /home/jigs/Documents/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-04-04 19:33:30,029 Watching for file changes with StatReloader
+INFO 2024-04-04 19:33:38,670 "GET /admin/auth/user/ HTTP/1.1" 200 7844
+INFO 2024-04-04 19:33:38,750 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,753 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,755 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,760 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,763 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,765 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,768 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,769 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,771 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,776 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,785 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-04-04 19:33:38,787 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,795 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,800 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,811 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,886 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,887 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,897 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,898 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-04-04 19:33:38,899 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-04-04 19:34:57,822 Watching for file changes with StatReloader
+INFO 2024-04-04 19:35:00,754 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:35:07,265 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:36:18,099 Watching for file changes with StatReloader
+INFO 2024-04-04 19:36:21,360 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:36:27,776 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 19:36:27,791 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 19:36:27,869 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-04-04 19:36:40,027 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 19:36:40,052 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:36:49,514 "GET /admin/ HTTP/1.1" 200 3326
+INFO 2024-04-04 19:36:49,583 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:36:49,597 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-04-04 19:36:49,639 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2024-04-04 19:36:49,641 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2024-04-04 19:36:49,641 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2024-04-04 19:36:52,468 "GET /admin/auth/user/ HTTP/1.1" 200 8226
+INFO 2024-04-04 19:36:52,552 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-04-04 19:42:11,314 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:43:40,669 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 19:43:40,735 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-04-04 19:43:40,811 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2024-04-04 19:53:35,607 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-04 19:53:41,714 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 19:53:41,727 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 19:53:41,792 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-04-04 19:53:51,147 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 19:53:51,171 "GET / HTTP/1.1" 200 9298

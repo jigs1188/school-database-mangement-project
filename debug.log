@@ -1,0 +1,94 @@
+INFO 2024-04-08 04:58:47,064 Watching for file changes with StatReloader
+INFO 2024-04-08 04:58:52,803 "GET / HTTP/1.1" 302 0
+INFO 2024-04-08 04:58:52,878 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-04-08 04:58:53,075 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+WARNING 2024-04-08 04:58:53,898 Not Found: /favicon.ico
+INFO 2024-04-08 04:58:59,430 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-08 04:58:59,505 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-08 04:59:06,683 "GET /finance/list/ HTTP/1.1" 200 10355
+INFO 2024-04-08 04:59:13,301 "GET /result/edit-results/ HTTP/1.1" 200 12069
+INFO 2024-04-08 04:59:15,368 "GET /result/view/all HTTP/1.1" 200 10295
+INFO 2024-04-08 04:59:23,671 "GET /session/list/ HTTP/1.1" 200 12292
+INFO 2024-04-08 04:59:28,375 "GET /session/3/update/ HTTP/1.1" 200 10185
+INFO 2024-04-08 04:59:45,543 "POST /session/3/update/ HTTP/1.1" 302 0
+INFO 2024-04-08 04:59:45,607 "GET /session/list/ HTTP/1.1" 200 12436
+INFO 2024-04-08 04:59:51,219 "GET /session/2/update/ HTTP/1.1" 200 10177
+INFO 2024-04-08 05:00:05,558 "POST /session/2/update/ HTTP/1.1" 302 0
+INFO 2024-04-08 05:00:05,631 "GET /session/list/ HTTP/1.1" 200 12436
+INFO 2024-04-08 05:00:08,888 "GET /session/3/update/ HTTP/1.1" 200 10177
+INFO 2024-04-08 05:00:12,004 "POST /session/3/update/ HTTP/1.1" 302 0
+INFO 2024-04-08 05:00:12,082 "GET /session/list/ HTTP/1.1" 200 12436
+INFO 2024-04-08 05:00:26,518 "GET /current-session/ HTTP/1.1" 200 10606
+ERROR 2024-04-08 05:00:33,220 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/jigs/Documents/Django-School-Management-System/apps/corecode/views.py", line 257, in post
+    form = self.form_Class(request.POST)
+AttributeError: 'CurrentSessionAndTermView' object has no attribute 'form_Class'
+ERROR 2024-04-08 05:00:33,223 "POST /current-session/ HTTP/1.1" 500 83759
+INFO 2024-04-08 05:00:38,001 "GET /current-session/ HTTP/1.1" 200 10606
+ERROR 2024-04-08 05:00:52,667 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/jigs/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/jigs/Documents/Django-School-Management-System/apps/corecode/views.py", line 257, in post
+    form = self.form_Class(request.POST)
+AttributeError: 'CurrentSessionAndTermView' object has no attribute 'form_Class'
+ERROR 2024-04-08 05:00:52,670 "POST /current-session/ HTTP/1.1" 500 83759
+INFO 2024-04-08 05:01:00,338 "GET /current-session/ HTTP/1.1" 200 10606
+INFO 2024-04-08 05:01:04,986 "GET /term/list/ HTTP/1.1" 200 12239
+INFO 2024-04-08 05:01:08,086 "GET /term/2/update/ HTTP/1.1" 200 10157
+INFO 2024-04-08 05:01:10,979 "POST /term/2/update/ HTTP/1.1" 302 0
+INFO 2024-04-08 05:01:11,058 "GET /term/list/ HTTP/1.1" 200 12380
+INFO 2024-04-08 05:01:16,523 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-08 05:01:25,874 "GET /subject/list/ HTTP/1.1" 200 11690
+INFO 2024-04-08 05:01:32,179 "GET /class/list/ HTTP/1.1" 200 11979
+INFO 2024-04-08 05:01:43,453 "GET /finance/list/ HTTP/1.1" 200 10355
+INFO 2024-04-08 05:01:55,093 "GET /finance/bulk-invoice/ HTTP/1.1" 200 9299
+INFO 2024-04-08 05:02:08,555 "GET /finance/bulk-invoice/ HTTP/1.1" 200 9299
+INFO 2024-04-08 05:02:23,815 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-08 05:02:40,808 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-09 05:29:45,737 Watching for file changes with StatReloader
+INFO 2024-04-09 05:29:55,557 "GET / HTTP/1.1" 302 0
+INFO 2024-04-09 05:29:55,586 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-04-09 05:29:55,693 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+WARNING 2024-04-09 05:29:56,090 Not Found: /favicon.ico
+INFO 2024-04-09 05:30:03,475 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-09 05:30:03,504 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-09 07:56:23,010 Watching for file changes with StatReloader
+INFO 2024-04-09 07:56:27,354 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-09 07:56:41,824 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-09 07:56:44,729 "GET /student/create/ HTTP/1.1" 200 13695
+INFO 2024-04-09 07:59:38,102 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-09 08:00:31,203 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-09 08:00:32,303 "GET /staff/list/ HTTP/1.1" 200 9695
+INFO 2024-04-09 08:00:34,439 "GET /staff/create/ HTTP/1.1" 200 12608
+INFO 2024-04-09 08:00:40,872 "GET /finance/list/ HTTP/1.1" 200 10355
+INFO 2024-04-09 08:00:45,185 "GET /result/create/ HTTP/1.1" 200 10923
+INFO 2024-04-09 08:00:49,291 "GET /result/edit-results/ HTTP/1.1" 200 10112
+INFO 2024-04-09 08:00:51,966 "GET /result/view/all HTTP/1.1" 200 8842
+INFO 2024-04-09 08:01:00,414 "GET /site-config HTTP/1.1" 200 10873
+INFO 2024-04-09 08:01:34,692 "POST /site-config HTTP/1.1" 200 10900
+INFO 2024-04-09 08:01:41,811 "POST /site-config HTTP/1.1" 200 10900
+INFO 2024-04-09 08:01:53,634 "POST /site-config HTTP/1.1" 200 10900
+INFO 2024-04-09 08:03:39,528 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-09 08:08:37,785 "GET /student/create/ HTTP/1.1" 200 13695
+INFO 2024-04-09 08:30:07,442 "GET / HTTP/1.1" 200 9298
+INFO 2024-04-09 08:38:50,355 "GET /student/list HTTP/1.1" 200 9954

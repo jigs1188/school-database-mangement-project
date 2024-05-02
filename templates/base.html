@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>{{ school_name | default:"MySchool" }}</title>
+  <!-- <title>{{ school_name | default:"MySchool" }}</title> -->
+  <title>School Database Project</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
@@ -76,7 +77,10 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="{% url 'home' %}" class="brand-link">{{ school_name | default:"MySchool" }}</a>
+      <!-- <a href="{% url 'home' %}" class="brand-link">{{ school_name | default:"MySchool" }}</a> -->
+      <a href="{% url 'home' %}" class="brand-link">Shree Saraswati  School</a>
+      
+
 
       <!-- Sidebar -->
       <div class="sidebar">

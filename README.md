@@ -1,6 +1,3 @@
-Here’s an enhanced version of your README content based on the reference you provided:
-
----
 
 # School Database Management System
 
@@ -71,7 +68,3 @@ This project is a **Role-Based School Management System** developed using **Djan
    python manage.py runserver
    ```
 5. Open your browser and go to `http://127.0.0.1:8000/` to explore the system.
-
----
-
-This enhanced README provides a professional and organized overview of your project while clearly presenting its features and technical aspects.
